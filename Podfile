@@ -7,5 +7,6 @@ target 'PatBudget' do
 
   # Pods for PatBudget
   pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
 
 end

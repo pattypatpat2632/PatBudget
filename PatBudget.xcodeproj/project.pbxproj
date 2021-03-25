@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,7 @@
 		EC81C44B260BA0740054153C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81C44A260BA0740054153C /* ContentView.swift */; };
 		EC81C44D260BA0790054153C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC81C44C260BA0790054153C /* Assets.xcassets */; };
 		EC81C450260BA0790054153C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC81C44F260BA0790054153C /* Preview Assets.xcassets */; };
-		EC81C459260BA31B0054153C /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = EC81C458260BA31B0054153C /* GoogleService-Info (1).plist */; };
+		EC81C459260BA31B0054153C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC81C458260BA31B0054153C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		EC81C44C260BA0790054153C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC81C44F260BA0790054153C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC81C451260BA0790054153C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC81C458260BA31B0054153C /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		EC81C458260BA31B0054153C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,6 @@
 				B95289DC1D9E5D2A68C13C9D /* Pods-PatBudget.debug.xcconfig */,
 				4B0906AAA63A235A5ECE1DB3 /* Pods-PatBudget.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,7 +78,7 @@
 		EC81C447260BA0740054153C /* PatBudget */ = {
 			isa = PBXGroup;
 			children = (
-				EC81C458260BA31B0054153C /* GoogleService-Info (1).plist */,
+				EC81C458260BA31B0054153C /* GoogleService-Info.plist */,
 				EC81C448260BA0740054153C /* PatBudgetApp.swift */,
 				EC81C44A260BA0740054153C /* ContentView.swift */,
 				EC81C44C260BA0790054153C /* Assets.xcassets */,
@@ -157,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC81C450260BA0790054153C /* Preview Assets.xcassets in Resources */,
-				EC81C459260BA31B0054153C /* GoogleService-Info (1).plist in Resources */,
+				EC81C459260BA31B0054153C /* GoogleService-Info.plist in Resources */,
 				EC81C44D260BA0790054153C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
