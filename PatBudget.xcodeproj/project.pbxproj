@@ -57,6 +57,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC68CB2F260CD77800AB2784 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC81C44A260BA0740054153C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EC81C43C260BA0740054153C = {
 			isa = PBXGroup;
 			children = (
@@ -78,9 +86,9 @@
 		EC81C447260BA0740054153C /* PatBudget */ = {
 			isa = PBXGroup;
 			children = (
+				EC68CB2F260CD77800AB2784 /* Views */,
 				EC81C458260BA31B0054153C /* GoogleService-Info.plist */,
 				EC81C448260BA0740054153C /* PatBudgetApp.swift */,
-				EC81C44A260BA0740054153C /* ContentView.swift */,
 				EC81C44C260BA0790054153C /* Assets.xcassets */,
 				EC81C451260BA0790054153C /* Info.plist */,
 				EC81C44E260BA0790054153C /* Preview Content */,
