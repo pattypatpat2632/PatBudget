@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3E19E057E3D1EF59B65038D /* Pods_PatBudget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4335EE3C5B5C51DCD98D4B1 /* Pods_PatBudget.framework */; };
+		EC4A0A65260E5D99004E13B7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A0A64260E5D99004E13B7 /* ContentViewModel.swift */; };
 		EC81C449260BA0740054153C /* PatBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81C448260BA0740054153C /* PatBudgetApp.swift */; };
 		EC81C44B260BA0740054153C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81C44A260BA0740054153C /* ContentView.swift */; };
 		EC81C44D260BA0790054153C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC81C44C260BA0790054153C /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		4B0906AAA63A235A5ECE1DB3 /* Pods-PatBudget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatBudget.release.xcconfig"; path = "Target Support Files/Pods-PatBudget/Pods-PatBudget.release.xcconfig"; sourceTree = "<group>"; };
 		B4335EE3C5B5C51DCD98D4B1 /* Pods_PatBudget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatBudget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95289DC1D9E5D2A68C13C9D /* Pods-PatBudget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatBudget.debug.xcconfig"; path = "Target Support Files/Pods-PatBudget/Pods-PatBudget.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4A0A64260E5D99004E13B7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		EC81C445260BA0740054153C /* PatBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC81C448260BA0740054153C /* PatBudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatBudgetApp.swift; sourceTree = "<group>"; };
 		EC81C44A260BA0740054153C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC4A0A63260E5D85004E13B7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EC4A0A64260E5D99004E13B7 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		EC68CB2F260CD77800AB2784 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				EC68CB2F260CD77800AB2784 /* Views */,
+				EC4A0A63260E5D85004E13B7 /* ViewModels */,
 				EC81C458260BA31B0054153C /* GoogleService-Info.plist */,
 				EC81C448260BA0740054153C /* PatBudgetApp.swift */,
 				EC81C44C260BA0790054153C /* Assets.xcassets */,
@@ -220,6 +231,7 @@
 			files = (
 				EC81C44B260BA0740054153C /* ContentView.swift in Sources */,
 				EC81C449260BA0740054153C /* PatBudgetApp.swift in Sources */,
+				EC4A0A65260E5D99004E13B7 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
