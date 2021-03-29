@@ -20,16 +20,16 @@ class ContentViewModel: ObservableObject, Identifiable {
         FirebaseApp.configure()
         authHandle = Auth.auth().addStateDidChangeListener { (auth, user) in
             if let user = user {
-                print(user.uid)
+                print("User is logged in. UID: \(user.uid)")
                 self.isLoggedIn = true
             }
         }
     }
     
     func createUser() {
-        print("Should create user. Email: \(email) Password: \(password)")
         Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
-            
+            guard let result = result, let email = result.user.email else {return}
+            DataStore.shared.createUserInDatabase(result.user.uid, email: email)
         }
     }
     

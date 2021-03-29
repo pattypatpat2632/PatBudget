@@ -17,7 +17,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if viewModel.isLoggedIn {
-                Text("hey you're logged in! fucking rad shit dude")
+                EntryView()
             } else {
                 Text("Log In")
                 TextField("Email",
@@ -30,7 +30,6 @@ struct ContentView: View {
                 Button("New User") {
                     isCreateUserDisplayed.toggle()
                 }
-                
             }
         }
         .sheet(isPresented: $isCreateUserDisplayed) {
